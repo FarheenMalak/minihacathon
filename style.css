@@ -28,6 +28,7 @@ li a:hover{
     border-color:rgb(0, 76, 139);
  }
 .navbar{
+    margin-top:3%;
     position:fixed;
 }
 /* Medium Devices, Desktops */
