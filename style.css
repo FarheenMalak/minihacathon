@@ -31,6 +31,9 @@ li a:hover{
     top:4%;
     position:fixed;
     z-index:1000;
+    width:100%;
+     margin-left:0%;
+     padding-left: 10%;
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
