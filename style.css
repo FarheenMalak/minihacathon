@@ -28,8 +28,8 @@ li a:hover{
     border-color:rgb(0, 76, 139);
  }
 .navbar{
-    margin-top:3%;
-    position:sticky;
+    top:4%;
+    position:fixed;
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -40,8 +40,8 @@ li a:hover{
         padding: 0;
     }
     .navbar{
-    position:sticky;
-    margin-top:3%;
+    position:fixed;
+    margin-top:4%;
 }
     .topmost img{
          float: right;
@@ -307,8 +307,8 @@ li a:hover{
         padding: 0;
     }
     .navbar{
-    position:sticky;
-    margin-top:3%;
+    position:fixed;
+    margin-top:4%;
 }
     .topmost img{
          float: right;
@@ -380,8 +380,8 @@ li a:hover{
         padding: 0;
     }
     .navbar{
-    position:sticky;
-    margin-top:3%;
+    position:fixed;
+    margin-top:4%;
 }
     .topmost img{
          float: right;
@@ -668,8 +668,8 @@ li a:hover{
         padding: 0;
     }
         .navbar{
-    position:sticky;
-    margin-top:3%;
+    position:fixed;
+    margin-top:4%;
 }
     #navimg{
         width: 50%;
