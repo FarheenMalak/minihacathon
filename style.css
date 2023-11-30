@@ -467,6 +467,7 @@ li a:hover{
     
     /* cards */
     .container {
+        display:block;
         padding: 0px;
         width: 787px;
         margin: auto;
