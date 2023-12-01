@@ -380,10 +380,19 @@ li a:hover{
 @media only screen and (max-width: 480px) {
     #topmost{
         width: 100%;
-        height: 100px;
+        max-width: 400px;
+        height: 25px;
         background-color: rgba(255, 255, 255, 0.918);
         padding: 0;
-    }
+        position: fixed;
+        z-index: 1000;}
+    .navbar{
+    position:fixed;
+    max-width: 400px;
+    z-index:1000;
+    height: 100px;
+    top: 1.7%;
+}
     .topmost img{
          float: right;
          padding: 5px;
@@ -394,14 +403,27 @@ li a:hover{
         display: inline;
         font-weight: lighter;
     }
-    .navbar{
+    .mynavbar {
         width: 100%;
         margin-left: 0%;
         padding: 0;
+        height: 100px;
+        color: rgb(59, 57, 57);
+        display: grid;
+        grid-template-columns:150px 2px 2px 2px 2px 2px  ;
+        grid-template-rows: 50px;
+        column-gap: 50px;
+    }
+    .mynavbar li{
+        display: inline;
+        text-decoration: none;
+    }
+    .mybtn{
+        display: none;
     }
     #navimg{
-        width: 50%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
     .myslider img{  
         height: 600px !important;
@@ -477,6 +499,7 @@ li a:hover{
         padding: 0px;
         width: 787px;
         margin: auto;
+        margin-left: 50px;
       }
       
       .card {
@@ -489,6 +512,7 @@ li a:hover{
         border-radius: 8px;
         padding: 20px;
         margin: 0;
+        margin-left: 50%;
         text-align: center;
         font-size: 8px;
       }
@@ -498,7 +522,7 @@ li a:hover{
         transition: transform 0.5s;
       }
       .card:hover{
-        margin-top: 2%;
+        margin-bottom: 6%;
       }
       .eventhead{
           text-align: center;
